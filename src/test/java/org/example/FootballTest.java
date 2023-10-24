@@ -7,7 +7,6 @@ import static org.assertj.core.api.Assertions.*;
 public class FootballTest {
     @Test
     void WMnation() {
-
         WorldCup worldCup = new WorldCup();
         assertThat(worldCup.wm("Deutschland") == 1);
     }
